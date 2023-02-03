@@ -1,4 +1,4 @@
-cesse pelo menos dois sites de sua preferência e os inspecione com o botão direito do mouse na página web.
+Acesse pelo menos dois sites de sua preferência e os inspecione com o botão direito do mouse na página web.
 Com o código fonte aberto você deve: 
 
 Verificar no código algum elemento que utilize JavaScript; 
@@ -17,10 +17,18 @@ Elemento do site inspecionado: botão "Pesquisa Google".
 Comportamento: O botão “Pesquisa Google” encaminha o usuário para uma lista com os sites mais relevantes a respeito 
 do termo que ele tenha digitado na barra de busca.
 
-Clicando na opção inspecionar do navegador, surge este código: 
+Clicando na opção inspecionar do navegador, surge este código JavaScript na opção bubbling de event:
 
-<input class="gNO89b" value="Pesquisa Google" aria-label="Pesquisa Google" name="btnK" role="button" tabindex="0" type="submit" 
-data-ved="0ahUKEwi0lM-R99v8AhWxjZUCHTu0AbMQ4dUDCA0">
+function(k) {
+  var m = b.Vm.Tj();
+  _.sy(k);
+  k = new Map([
+    ["ved", _.jc(f)]
+  ]);
+  b.oa && k.set("uact", "5");
+  _.HUd(b.form, k);
+  TUd(b, _.oFd(new _.ty, b.oa ? 3 : 12).setQuery(m).build(), f)
+}
 
 ---------------------------------------------------------
 
@@ -33,8 +41,9 @@ surge ao usuário a opção de permitir acesso ao microfone de seu dispositivo. 
 aparece um pop-up com o mesmo icone de microfone. A partir disso, o usuário deve manter pressionado esse icone
 enquanto transmite uma mensagem verbal ao aparelho para que a pesquisa seja efetuada.
 
-Clicando na opção inspecionar do navegador, surge este código: 
+Clicando na opção inspecionar do navegador, surge este código JavaScript na opção bubbling de event:
 
-<div class="yt-spec-touch-feedback-shape yt-spec-touch-feedback-shape--touch-response" 
-aria-hidden="true"><div class="yt-spec-touch-feedback-shape__stroke" 
-style=""></div><div class="yt-spec-touch-feedback-shape__fill" style=""></div></div>
+function(Cc) {
+  null == t || t(Cc);
+  ca && (null == Ha || Ha(Cc))
+}
