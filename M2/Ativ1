@@ -3,3 +3,37 @@ Além disso, explique quais as vantagens e desvantagens comparados a outros e mo
 
 Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e 
 compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo. 
+
+
+____________________________________________________________________
+
+Decorator
+
+Padrão de projeto estrutural que torna possível que novos comportamentos sejam acoplados a objetos por meio de invólucros de objetos que 
+contém os comportamentos.
+
+O Decorator lhe permite estruturar sua lógica de negócio em camadas, criar um decorador para cada camada, e compor objetos com várias 
+combinações dessa lógica durante a execução. O código cliente pode tratar de todos esses objetos da mesma forma, como todos seguem a mesma 
+interface comum.
+
+Vantagens
+
+    Você pode estender o comportamento de um objeto sem fazer um nova subclasse.
+
+    Você pode adicionar ou remover responsabilidades de um objeto no momento da execução.
+
+    Você pode combinar diversos comportamentos ao envolver o objeto com múltiplos decoradores.
+
+    Princípio de responsabilidade única. Você pode dividir uma classe monolítica que implementa muitas possíveis variantes de um comportamento em diversas classes menores.
+
+Desvantagens
+
+    É difícil remover um invólucro de uma pilha de invólucros.
+
+    É difícil implementar um decorador de tal maneira que seu comportamento não dependa da ordem do pilha de decoradores.
+
+    A configuração inicial do código de camadas pode ficar bastante feia.
+
+
+
+Referência: https://refactoring.guru/pt-br/design-patterns/decorator
