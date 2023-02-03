@@ -6,5 +6,18 @@ Deixe ele pronto para uso, ou seja, sem mais configurações.
 
 Escreva, no mínimo, um parágrafo mostrando seu ambiente configurado, explique sua escolha.  
 
-Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.
+Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores 
+possam analisá-lo.
+
+--------------------------------------
+
+Resposta:
+
+Baixei o VsCode, o ambiente de desenvolvimento criado pela Microsoft.
+Escolhi esse editor de código pela variedade de extenções e temas que
+a ferramenta oferece. Baixei o Node JS junto com a extensão Code Runner
+para rodar Javascript na ferramenta.
+
+
+
 */
