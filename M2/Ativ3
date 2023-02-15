@@ -5,3 +5,20 @@ prova para poder passar com nota sete.
 
 Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para 
 que outros desenvolvedores possam analisá-lo.
+
+
+--------
+
+var media = (nota1, nota2, nota3) => (nota1+nota2+nota3)/3
+var situacao = (media) => {return (media>=7) ? 'Aprovado' : 'Reprovado'}
+
+console.log(situacao(media(7, 7, 8)));
+
+
+----------------------------------
+
+
+
+var nota_min = (nota1, nota2) => 21-(nota1+nota2)
+
+console.log(nota_min(6, 8));
