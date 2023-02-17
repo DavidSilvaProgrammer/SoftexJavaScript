@@ -9,3 +9,33 @@ Observações:
 
 Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado 
 para que outros desenvolvedores possam analisá-lo.
+
+class Banco {
+    constructor(conta, saldo, tipo, agencia) {
+        this.conta = conta;
+        this.saldo = saldo;
+        this.tipo = tipo;
+        this.agencia = agencia;
+    };
+    buscarSaldo() {
+        return this.saldo;
+    };
+    deposito(valorDeposito) {
+        this.saldo += valorDeposito;
+    };
+    saque(valorSaque) {
+        this.saldo -= valorSaque;
+    };
+    numeroDaConta() {
+        return this.conta;
+    };
+
+}
+
+var conta = new Banco(101112, 5000, 'Conta corrente', 005);
+console.log("Conta: "+conta.conta)
+console.log("Saldo: "+conta.buscarSaldo());
+conta.deposito(2000);
+console.log("Saldo pós deposito: "+conta.buscarSaldo());
+conta.saque(1000);
+console.log("Saldo pós saque: "+conta.buscarSaldo());
