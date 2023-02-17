@@ -1,0 +1,9 @@
+function Banco(conta,saldo,tipo){
+    this.conta=conta;
+    this.saldo=saldo;
+    this.tipo=tipo;
+}
+
+var minhaConta = new Banco("5124",100.5,"contacorrente");
+
+console.log(minhaConta)
