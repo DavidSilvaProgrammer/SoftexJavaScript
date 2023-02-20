@@ -1,0 +1,8 @@
+let livro = {
+    nome: 'narnia',
+    cod:45580,
+    categoria:'ação e aventura'
+};
+    for (const propriedade in livro){
+        console.log(`${propriedade}:${livro[propriedade]}`);
+    }
