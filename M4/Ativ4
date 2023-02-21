@@ -3,3 +3,35 @@ ele deve retornar uma frase positiva. Se isso não ocorrer, retorne uma frase in
 
 Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no 
 campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+const express = require('express');
+const app = express();
+const db = require('./models/db');
+
+app.get('/', async (req, res) => {
+    res.send("Página inicial");
+});
+
+conexao.authenticate()
+.then(()=>{
+    console.log("Conexão com banco de dados bem sucedida.");
+}).catch(()=>{
+    console.log("Erro");
+});
+
+app.listen(8080, () => {
+    console.log("Servidor iniciado na porta 8080: http://localhost:8080");
+});
+
+
+-------------------------------------------------------
+
+/*models*/
+
+const Sequelize = require('sequelize');
+const conexao = new Sequelize("bancoDeDados", "root", "senha", {
+    host: 'localhost',
+    dialect: 'mysql'
+});
+
+module.exports = conexao;
